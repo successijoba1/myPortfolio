@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: purple;
+
+}
+nav img{
+    width: 200px;
+    height: 50px;
+}
+section{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(/images/liles.png) orange ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.bodyPage{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 70%;
+    width: 85%;
+    gap: 40px;
+}
+.text{
+    font-size: 25px;
+    width: 80%;
+}
+.text h1{
+    font-family: tahoma;
+    color:grey;
+    margin: 0;
+}
+#headingText{
+    color: #BCED09;
+    font-family: 'Times New Roman';
+}
+#headingText span{
+    font-family: tahoma;
+}
+#highlight{
+    font-weight: 800;
+}
+#sym{
+    font-weight: 100;
+    font-size: 40px;
+    color: grey;
+}
+#main{
+    /* color:grey; */
+    color: #558C8C;
+    font-weight: 100;
+    font-family: tahoma;
+    font-size: 19px;
+    width: 90%;
+    
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.buttons button{
+    padding: 1em;
+    font-family:sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    border-radius: 10px;
+    /* outline: none; */
+    cursor: pointer;
+    border: 3px solid purple;
+    transition: 400ms;
+}
+.buttons button:hover{
+    transform: scale(1.10);
+}
+#hire{
+    background: purple;
+    color: white;
+}
+#works{
+    color: purple;
+}
+#link{
+    color: purple;
+}
+#success{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    /* object-fit: ; */
+    border: 4px solid purple;
+}
