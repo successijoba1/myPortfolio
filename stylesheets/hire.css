@@ -128,3 +128,12 @@ nav img{
     color: orange;
     font-weight: 900;
 }
+@media screen and (max-width: 800px){
+    .hire{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactCont {
+        width: auto;
+    }
+}
